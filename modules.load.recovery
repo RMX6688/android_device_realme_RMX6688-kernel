@@ -107,6 +107,11 @@ drm_dma_helper.ko
 drm_display_helper.ko
 panel_ac178_p_3_a0004_dsi_cmd.ko
 oplus_display_dsi_primary.ko
+ktz8866.ko
+panel_x25n16_p_7_a0028_dsi_vdo.ko
+panel_x25n16_p_7_2_a0028_dsi_vdo.ko
+panel_xn011_p_7_a0028_dsi_vdo.ko
+panel_xn011_p_7_2_a0028_dsi_vdo.ko
 mediatek-drm.ko
 aee_rs.ko
 mmprofile.ko
@@ -116,6 +121,7 @@ mtk-uart-apdma.ko
 olc.ko
 oplus_storage_log.ko
 oplus_uprobe.ko
+oplus_file_record.ko
 oplus_f2fslog_storage.ko
 kernel_fb.ko
 oplusboot.ko
@@ -135,6 +141,7 @@ ffa_v11.ko
 teeperf.ko
 mcDrvModule-ffa.ko
 mtk-spmi-pmic-adc.ko
+mtk-spmi-pmic-debug.ko
 mt6379s.ko
 industrialio-triggered-buffer.ko
 kfifo_buf.ko
@@ -206,6 +213,7 @@ leds-mtk-pwm.ko
 oplus_chg_v2.ko
 test-kit.ko
 ufcs_class.ko
+oplus_wireless_pen.ko
 v4l2-flash-led-class.ko
 extcon-mtk-usb.ko
 tcpci_late_sync.ko
@@ -218,6 +226,8 @@ oplus_bsp_tp_common.ko
 oplus_bsp_tp_syna_common.ko
 oplus_bsp_tp_tcm_S3910.ko
 oplus_bsp_synaptics_tcm2.ko
+oplus_bsp_tp_novatek_common.ko
+oplus_bsp_tp_nt36532_noflash.ko
 device_info.ko
 ufs-oplus-dbg.ko
 oplus_bsp_tri_key.ko
@@ -285,6 +295,7 @@ haptic.ko
 haptic_feedback.ko
 oplus_secure_common.ko
 oplus_secure_guard_new.ko
+inte.ko
 oplus_bsp_mm_osvelte.ko
 sg.ko
 oplus_bsp_storage_io_metrics.ko
